@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Registr from './Registr.vue'
 
-Vue.component("app-register", Registr)
+export const eventEmitter = new Vue()
 
 new Vue({
   el: '#app',
@@ -11,3 +10,4 @@ new Vue({
     return h(App)
   }*/
 })
+
